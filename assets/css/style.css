@@ -236,3 +236,54 @@ Section
     position: relative;
     overflow: hidden;
 }
+.footer {
+    padding-top:50px;
+    padding-bottom:50px;
+    color:#fff;
+    background:#222222;
+}
+section .subtitle h5 {
+    margin-top: 10px;
+    font-size: 1.3rem;
+    font-family: 'roboto', sans-serif;
+}
+.parallax-section {
+    max-width: 100%;
+    color: #ffffff;
+}
+section .title-half h2 {
+    font-size: 3rem;
+    line-height: 4rem;
+    font-weight: 300;
+    margin-bottom: 1.4rem;
+}
+section .subtitle-half h5 {
+    font-weight: 100;
+    font-size: 17px;
+}
+
+.heading {
+    margin-bottom: 4rem;
+}
+.overlay {
+    background-color: rgba(0, 0, 0, .45);
+    width: 100%;
+    overflow:hidden;
+    min-height:800px;
+}
+.overlay-fluid-block {
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+}
+.home-overlay-fluid {
+    background-color: rgba(41, 41, 41, 0.68);
+    width: 80%;
+    margin: auto;
+}
+.overlay-img {
+    background: rgba(0, 0, 0, 0.3);
+    width: 100%;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    color: #ffffff;
+}
