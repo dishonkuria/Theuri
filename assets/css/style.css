@@ -1022,3 +1022,25 @@ Main components
 .no-js #main-nav .cd-close-menu {
     display: none;
 }
+
+.cd-shadow-layer {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.4);
+    z-index: 2;
+    opacity: 0;
+    visibility: hidden;
+    -webkit-transition: visibility 0s 0.5s, opacity 0.5s 0s;
+    -moz-transition: visibility 0s 0.5s, opacity 0.5s 0s;
+    transition: visibility 0s 0.5s, opacity 0.5s 0s;
+}
+.cd-shadow-layer.is-visible {
+    opacity: 1;
+    visibility: visible;
+    -webkit-transition-delay: 0s;
+    -moz-transition-delay: 0s;
+    transition-delay: 0s;
+}
