@@ -610,3 +610,20 @@ textarea::-ms-input-placeholder
     padding-bottom: 30px;
     margin-bottom: 30px;
 }
+
+/* For Portfolio Section*/
+.portfolio-item {
+	margin-bottom:20px;
+}
+
+.portfolio-wrapper2{
+    margin-top:25px;
+}
+.portfolio-wrapper2 .portfolio-item.width-img{
+    width:100%;
+    overflow:hidden;
+    height:243px;
+}
+.portfolio-wrapper2 .portfolio-item.width-img img{
+    width:100%;
+}
