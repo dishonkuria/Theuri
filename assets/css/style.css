@@ -1,0 +1,24 @@
+
+
+/*
+Author: Dishon Theuri
+Author URI: http://dishontheuri.net/user/dishonkuria/portfolio
+*/
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+html,
+body {
+    background-color: #ffffff;
+    font-size: 16px;
+    color:#6B6B6B;
+    width: 100%;
+    padding: 0;
+    margin-left: 0;
+    margin-right: 0;
+    font-family: 'robotoregular';
+    font-weight: 300;
+}
+/*==========================================
+PRE LOADER
+==========================================*/
