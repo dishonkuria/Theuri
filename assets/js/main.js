@@ -90,7 +90,7 @@ jQuery(document).ready(function ($) {
 
 
     /*---------------------------------------------*
-     * Counter 
+     * Counter
      ---------------------------------------------*/
 
 //    $('.statistic-counter').counterUp({
@@ -128,3 +128,43 @@ jQuery(document).ready(function ($) {
 
     //End
 });
+
+<script type="text/javascript">
+var Tawk_API=Tawk_API||{};
+Tawk_API.visitor = {
+name : 'visitor name',
+email : 'visitor@email.com'
+};
+
+var Tawk_LoadStart=new Date();
+<!-- rest of the tawk.to widget code -->
+</script>
+
+<script type="text/javascript">
+var Tawk_API=Tawk_API||{};
+Tawk_API.visitor = {
+name : 'visitor name',
+email :  'visitor@email.com',
+hash : 'hash-value'
+};
+
+var Tawk_LoadStart=new Date();
+<!-- rest of the tawk.to widget code -->
+</script>
+
+<script type="text/javascript">
+var Tawk_API=Tawk_API||{};
+var Tawk_LoadStart=new Date();
+<!--rest of the tawk.to widget code -->
+
+<script type="tet/javascript">
+Tawk_API.onLoad =function(){
+Tawk_API.setAttributes({
+'name' :'visitor',
+'email':'visitor@email.com',
+'hash' : 'hash-value'
+}, function (error) {});
+
+};
+</script>
+<!--End of Tawk.toScript-->
